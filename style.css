@@ -4,35 +4,37 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777
+        
+}
+
+.container, .main-section {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
     
 }
 
-h1, h2 {
+#head {
+    width: 100%;
+    margin: 0 0 30px 0;
+    z-index: 99;
+    overflow: auto;
+    
+    position: fixed;
+    background-color: #ffffff
+
+}
+
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     color: #4aaaa5;
-}
-
-
-h1 {
-    border-bottom: 3px solid #cccccc;
-    
-}
-
-h2, h3 {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /*header*/
 
-#head {
-    
-    margin: 0 0 30px 0;
-    z-index: 99;
-    border-bottom: 2px solid #cccccc;
-    background-color: #ffffff ;
-
-}
 
 #logo {
     width: 250px;
@@ -47,8 +49,10 @@ h2, h3 {
     
 }
 
+
 #main-container {
-    margin-bottom: 30px;
+    padding-top: 130px;
+
 }
 
 .main-section {
@@ -56,14 +60,10 @@ h2, h3 {
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 780px;
+    max-width: 650px;
     float: left;
     border: 1px solid #cccccc;
     
-}
-
-.responsive {
-    margin-bottom: 20px
 }
 
 .auth-image {
@@ -76,14 +76,17 @@ h2, h3 {
 
 /*card*/
 
-.card-title {
-    
-    text-align: center;
-    padding-top: 20px;
-    
+.card {
+    padding: 30px;
+    background: #ffffff;
+    width: 100%;
+    max-width: 270px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+
 }
 
-h3, .card, h2, .card-title {
+h3, .card-title, h2 {
     border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
     margin-bottom: 15px;
@@ -91,14 +94,10 @@ h3, .card, h2, .card-title {
 }
 
 .social {
-    width: 60px;
-    height: 60px;
-
+    width: 50px;
+    height: 50px;
 }
 
-#connect {
-    text-align: center
-}
 
 
 /*footer*/
