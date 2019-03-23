@@ -20,7 +20,6 @@ body {
     margin: 0 0 30px 0;
     z-index: 99;
     overflow: auto;
-    
     position: fixed;
     background-color: #ffffff
 
@@ -58,7 +57,7 @@ h2 {
 .main-section {
     background: #ffffff;
     padding: 30px;
-    margin: 0 0 40px 0;
+    margin: 0 20px 40px 0;
     width: 100%;
     max-width: 650px;
     float: left;
@@ -83,6 +82,7 @@ h2 {
     max-width: 270px;
     border: 1px solid #cccccc;
     margin-bottom: 20px;
+    margin-left: 13px;
 
 }
 
